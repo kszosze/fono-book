@@ -1,0 +1,15 @@
+insert into Employee (id, employee_id, name, surname, role, depto) values(19332, '11', 'John', 'Smith', 'Tester', 'QA');
+insert into Employee (id, employee_id, name, surname, role, depto) values(19333, '12', 'Albert', 'Jones', 'Tester', 'QA');
+insert into Employee (id, employee_id, name, surname, role, depto) values(19334, '13', 'Bob', 'Sinclair', 'Tester', 'QA');
+insert into Employee (id, employee_id, name, surname, role, depto) values(19335, '14', 'Lucy', 'Liu', 'Tester', 'QA');
+insert into Employee (id, employee_id, name, surname, role, depto) values(19336, '15', 'Cynthia', 'Callaghan', 'Tester', 'QA');
+insert into Phone (id, brand, model, available) values (19341, 'Samsung', 'Samsung Galaxy S9', 'true');
+insert into Phone (id, brand, model, available) values (19342, 'Samsung', 'Samsung Galaxy S8', 'true');
+insert into Phone (id, brand, model, available) values (19343, 'Samsung', 'Samsung Galaxy S7', 'true');
+insert into Phone (id, brand, model, available) values (19344, 'Motorola', 'Motorola Nexus 6', 'true');
+insert into Phone (id, brand, model, available) values (19345, 'LG', 'LG Nexus 5X', 'true');
+insert into Phone (id, brand, model, available) values (19346, 'Huawei', 'Huawei Honor 7X', 'true');
+insert into Phone (id, brand, model, available) values (19347, 'Apple', 'Apple iPhone X', 'true');
+insert into Phone (id, brand, model, available) values (19348, 'Apple', 'Apple iPhone 8', 'true');
+insert into Phone (id, brand, model, available) values (19349, 'Apple', 'Apple iPhone 4s', 'true');
+insert into Phone (id, brand, model, available) values (19350, 'Nokia', 'Nokia 3310', 'true');
