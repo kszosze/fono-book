@@ -1,0 +1,24 @@
+<p>
+  <table>
+    <thead>
+      <th> Brand </th>
+      <th> Model </th>
+      <th> Available </th>
+      <th> Technology </th>
+      <th> 2G Bands </th>
+      <th> 3G Bands </th>
+      <th> 4G Bands </th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let phone of phones ">
+        <td>{{ phone.brand }}</td>
+        <td>{{ phone.model }}</td>
+        <td>{{ phone.available }}</td>
+        <td>{{ phone.technology }}</td>
+        <td>{{ phone.bands2g }}</td>
+        <td>{{ phone.bands3g }}</td>
+        <td>{{ phone.bands4g }}</td>
+      </tr>
+    </tbody>
+  </table>
+</p>

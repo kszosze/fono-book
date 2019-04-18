@@ -1,0 +1,26 @@
+<p>
+  <table>
+    <thead>
+      <th> Phone Model </th>
+      <th> Employee </th>
+      <th> Borrow Date </th>
+      <th> Should Return Date </th>
+      <th> Returned Date </th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let booking of bookings ">
+        <td>{{ booking.phone.model }}</td>
+        <td>{{ booking.employee.fullName()  }}</td>
+        <td>{{ booking.borrowAt }}</td>
+        <td>{{ booking.returnedAt }}</td>
+        <td>{{ booking.shouldReturnAt }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <form #bookingForm="ngForm" (ngSubmit)="book(bookingForm.value)">
+    <input placeholder="Employee Id" name="employeeId" [(ngModel)]="booking.employeeId" requred>
+    <input placeholder="Phone model" name="phoneModel" [(ngModel)]="booking.phoneModel" requred>
+    <button color="primary" type="submit">Create</button>
+  </form>
+</p>
+

@@ -1,0 +1,23 @@
+<p>
+  <table>
+    <thead>
+      <th> Employee Id </th>
+      <th> Name </th>
+      <th> Surname </th>
+      <th> Role </th>
+      <th> Depto </th>
+      <th> No of Bookings </th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees ">
+        <td>{{ employee.employeeId }}</td>
+        <td>{{ employee.name }}</td>
+        <td>{{ employee.surname }}</td>
+        <td>{{ employee.role }}</td>
+        <td>{{ employee.depto }}</td>
+        <td>{{ employee.bookings.size }}</td>
+      </tr>
+    </tbody>
+  </table>
+</p>
+
